@@ -1,1 +1,33 @@
-
+$scope.cashalot.angelScale = 0.375;
+//ok
+$scope.cashalot.baseCost = [30, 3e+4, 2e+5, 9e+9, 3.5e+10, 1.2e+12, 2.5e+14, 1.44e+17, 1.1e+20];
+//ok
+$scope.cashalot.basePower = [1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1];
+//ok
+$scope.cashalot.baseProfit = [30, 2000, 4e+4, 8e+7, 5e+9, 3.2e+10, 3.5e+13, 1.5e+17, 8.5e+17];
+//some of them have ad boosts on them
+$scope.cashalot.baseSpeed = [2.5, 3.5, 4.5, 5.5, 6.5, 7.5, 9, 10.5, 12.5];
+$scope.cashalot.investments = [
+  ['Pimp Thy Steed', 1, false, 0, 0, 0, 0],
+  ['Tapestry Selfie Booth', 0, false, 0, 0, 0, 0],
+  ['Serf Surfing', 0, false, 0, 0, 0, 0],
+  ['Wyvernry', 0, false, 0, 0, 0, 0],
+  ['Unicorn Jousting', 0, false, 0, 0, 0, 0],
+  ['Armor Bedazzling', 0, false, 0, 0, 0, 0],
+  ['Centaur Rides', 0, false, 0, 0, 0, 0],
+  ['Dragon Race', 0, false, 0, 0, 0, 0],
+  ['Killer Rabbit Show', 0, false, 0, 0, 0, 0]
+];
+$scope.cashalot.unlocks[0] = [[50, [0, 3]],[100, [2, 11]],[125, [2, 5]],[777, [18, 2]],[825, [2, 3]],[1160, [0, 3]],[1212, [2, 12]],[1525, [18, 1.5]]];
+$scope.cashalot.unlocks[1] = [[25, [4, 2.5]],[75, [4, 5]],[400, [0, 6666]],[500, [0, 7777]],[600, [0, 8888]],[700, [0, 9999]],[777, [4, 12]],[1075, [0, 4444]],[1300, [18, 1.5]]];
+$scope.cashalot.unlocks[2] = [[75, [6, 11]],[100, [6, 7]],[256, [2, 4444]],[368, [2, 5555]],[512, [2, 6666]],[640, [2, 7777]],[777, [6, 55]],[1040, [2, 1111]],[1135, [, ]],[1400, [, ]],[1475, [, ]]];
+$scope.cashalot.unlocks[3] = 
+$scope.cashalot.unlocks[4] = 
+$scope.cashalot.unlocks[5] = 
+$scope.cashalot.unlocks[6] = 
+$scope.cashalot.unlocks[7] = 
+$scope.cashalot.unlocks[8] = 
+$scope.cashalot.unlocks[9] = 
+$scope.cashalot.cashUpgrades = 
+$scope.cashalot.angelUpgrades = 
+$scope.cashalot.managerUpgrades = [];
